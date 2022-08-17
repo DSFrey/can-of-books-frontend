@@ -20,6 +20,7 @@ class BestBooks extends React.Component {
   }
 
   componentDidMount() {
+    console.log('In componentDidMount')
     this.getBooks();
   }
   handleShowModal = () => {
